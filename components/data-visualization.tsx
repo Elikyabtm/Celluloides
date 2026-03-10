@@ -1,5 +1,3 @@
-"use client";
-
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { PortraitTimeline } from "./editorial-dataviz/portrait-timeline";
