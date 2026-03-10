@@ -1,0 +1,191 @@
+{
+  "stereotypes": [
+    {
+      "id": "mammy",
+      "name": "Mammy",
+      "description": "Figure maternelle dévouée, servile et asexuée, incarnant la domestique noire au service des familles blanches.",
+      "period": "1900-1960",
+      "characteristics": ["Surpoids", "Maternelle", "Servile", "Asexuée", "Dévouée"],
+      "color": "#8B4513"
+    },
+    {
+      "id": "jezebel",
+      "name": "Jézabel",
+      "description": "Femme hypersexualisée et séductrice, utilisée pour justifier l'exploitation des femmes noires.",
+      "period": "1920-1970",
+      "characteristics": ["Séductrice", "Hypersexualisée", "Manipulatrice", "Dangereuse"],
+      "color": "#8B0000"
+    },
+    {
+      "id": "sapphire",
+      "name": "Saphir",
+      "description": "Femme colérique, dominante et castratrice, perpétuant l'image de la 'angry black woman'.",
+      "period": "1940-présent",
+      "characteristics": ["Colérique", "Agressive", "Dominante", "Bruyante"],
+      "color": "#4A0080"
+    }
+  ],
+  "decades": [
+    {
+      "period": "1930-1940",
+      "title": "L'Ère des Stéréotypes",
+      "description": "Hollywood impose des rôles limités aux actrices noires, cantonnées aux domestiques et aux figures serviles.",
+      "context": "Ségrégation légale, Codes Hays limitant les représentations interraciales.",
+      "statistics": {
+        "roles_principaux": 2,
+        "roles_domestiques": 89,
+        "nominations_oscars": 1
+      }
+    },
+    {
+      "period": "1950-1960",
+      "title": "Premières Fissures",
+      "description": "Quelques actrices commencent à obtenir des rôles plus nuancés, bien que rares.",
+      "context": "Mouvement des droits civiques, évolution lente des mentalités.",
+      "statistics": {
+        "roles_principaux": 8,
+        "roles_domestiques": 67,
+        "nominations_oscars": 3
+      }
+    },
+    {
+      "period": "1970-1980",
+      "title": "Blaxploitation et Ambivalence",
+      "description": "Le cinéma blaxploitation offre une visibilité accrue mais souvent stéréotypée.",
+      "context": "Post-droits civiques, émergence d'un cinéma afro-américain commercial.",
+      "statistics": {
+        "roles_principaux": 24,
+        "roles_domestiques": 31,
+        "nominations_oscars": 4
+      }
+    },
+    {
+      "period": "1990-2000",
+      "title": "Diversification Progressive",
+      "description": "Des actrices comme Whoopi Goldberg et Halle Berry élargissent le spectre des rôles.",
+      "context": "Globalisation, prise de conscience progressive de l'industrie.",
+      "statistics": {
+        "roles_principaux": 45,
+        "roles_domestiques": 18,
+        "nominations_oscars": 8
+      }
+    },
+    {
+      "period": "2010-2020",
+      "title": "Renaissance et Reconnaissance",
+      "description": "Black Panther, Hidden Figures marquent un tournant historique dans la représentation.",
+      "context": "#OscarsSoWhite, mouvements sociaux, plateformes de streaming.",
+      "statistics": {
+        "roles_principaux": 78,
+        "roles_domestiques": 12,
+        "nominations_oscars": 18
+      }
+    }
+  ],
+  "actresses": [
+    {
+      "id": "hattie-mcdaniel",
+      "name": "Hattie McDaniel",
+      "birth": 1893,
+      "death": 1952,
+      "image": "/images/hattie-mcdaniel.jpg",
+      "milestone": "Première femme noire oscarisée (1940)",
+      "quote": "Je préfère jouer une domestique que d'en être une.",
+      "context": "Son Oscar pour 'Autant en emporte le vent' reste controversé : reconnaissance ou enfermement ?",
+      "films": ["Autant en emporte le vent (1939)", "Show Boat (1936)"],
+      "stereotype": "mammy",
+      "legacy": "Pionnière malgré elle, Hattie McDaniel a ouvert une porte tout en restant prisonnière des archétypes de son époque."
+    },
+    {
+      "id": "dorothy-dandridge",
+      "name": "Dorothy Dandridge",
+      "birth": 1922,
+      "death": 1965,
+      "image": "/images/dorothy-dandridge.jpg",
+      "milestone": "Première femme noire nominée pour un Oscar de la meilleure actrice (1954)",
+      "quote": "Si j'étais blanche, je pourrais capturer le monde.",
+      "context": "Icône glamour condamnée à des rôles limités par la ségrégation hollywoodienne.",
+      "films": ["Carmen Jones (1954)", "Porgy and Bess (1959)"],
+      "stereotype": "jezebel",
+      "legacy": "Sa beauté et son talent ont défié les codes, mais Hollywood n'était pas prêt à lui offrir les rôles qu'elle méritait."
+    },
+    {
+      "id": "cicely-tyson",
+      "name": "Cicely Tyson",
+      "birth": 1924,
+      "death": 2021,
+      "image": "/images/cicely-tyson.jpg",
+      "milestone": "A refusé systématiquement les rôles dégradants",
+      "quote": "Je n'accepte que les rôles qui élèvent les femmes noires.",
+      "context": "Figure de résistance, elle a choisi ses rôles avec une exigence morale rare.",
+      "films": ["Sounder (1972)", "The Autobiography of Miss Jane Pittman (1974)"],
+      "stereotype": null,
+      "legacy": "Cicely Tyson a prouvé qu'une carrière dignifiée était possible en refusant les compromis."
+    },
+    {
+      "id": "whoopi-goldberg",
+      "name": "Whoopi Goldberg",
+      "birth": 1955,
+      "death": null,
+      "image": "/images/whoopi-goldberg.jpg",
+      "milestone": "Deuxième femme noire oscarisée (1991)",
+      "quote": "Je ne suis pas une actrice noire. Je suis une actrice qui est noire.",
+      "context": "Polyvalente et engagée, elle a transcendé les catégories.",
+      "films": ["La Couleur Pourpre (1985)", "Ghost (1990)"],
+      "stereotype": null,
+      "legacy": "Son Oscar et sa carrière protéiforme ont ouvert la voie à une nouvelle génération."
+    },
+    {
+      "id": "halle-berry",
+      "name": "Halle Berry",
+      "birth": 1966,
+      "death": null,
+      "image": "/images/halle-berry.jpg",
+      "milestone": "Première femme noire Oscar de la meilleure actrice (2002)",
+      "quote": "Cette porte s'est finalement ouverte ce soir.",
+      "context": "Son discours aux Oscars 2002 reste un moment historique pour la représentation.",
+      "films": ["Monster's Ball (2001)", "X-Men (2000)"],
+      "stereotype": null,
+      "legacy": "Vingt ans après son Oscar, aucune autre femme noire n'a remporté ce prix, révélant les limites du 'progrès'."
+    },
+    {
+      "id": "viola-davis",
+      "name": "Viola Davis",
+      "birth": 1965,
+      "death": null,
+      "image": "/images/viola-davis.jpg",
+      "milestone": "Première actrice noire EGOT (Emmy, Grammy, Oscar, Tony)",
+      "quote": "La seule chose qui sépare les femmes noires des autres femmes, c'est l'opportunité.",
+      "context": "Activiste vocale pour la diversité, elle dénonce régulièrement les inégalités systémiques.",
+      "films": ["The Help (2011)", "Fences (2016)", "Ma Rainey's Black Bottom (2020)"],
+      "stereotype": null,
+      "legacy": "Viola Davis incarne la nouvelle génération qui refuse de se taire sur les injustices de l'industrie."
+    },
+    {
+      "id": "lupita-nyongo",
+      "name": "Lupita Nyong'o",
+      "birth": 1983,
+      "death": null,
+      "image": "/images/lupita-nyongo.jpg",
+      "milestone": "Oscar du meilleur second rôle pour '12 Years a Slave' (2014)",
+      "quote": "Vos rêves sont valides.",
+      "context": "Actrice kényane-mexicaine, elle représente une nouvelle diversité au sein même de la diaspora africaine.",
+      "films": ["12 Years a Slave (2013)", "Black Panther (2018)", "Us (2019)"],
+      "stereotype": null,
+      "legacy": "Son parcours illustre l'internationalisation croissante d'Hollywood et l'émergence de nouvelles voix africaines."
+    }
+  ],
+  "timeline_events": [
+    { "year": 1940, "event": "Hattie McDaniel remporte l'Oscar", "type": "milestone" },
+    { "year": 1954, "event": "Dorothy Dandridge nominée aux Oscars", "type": "milestone" },
+    { "year": 1964, "event": "Civil Rights Act", "type": "context" },
+    { "year": 1971, "event": "Début de la Blaxploitation", "type": "cinema" },
+    { "year": 1985, "event": "La Couleur Pourpre - 11 nominations", "type": "milestone" },
+    { "year": 1991, "event": "Whoopi Goldberg remporte l'Oscar", "type": "milestone" },
+    { "year": 2002, "event": "Halle Berry première Oscar meilleure actrice", "type": "milestone" },
+    { "year": 2014, "event": "Lupita Nyong'o remporte l'Oscar", "type": "milestone" },
+    { "year": 2015, "event": "#OscarsSoWhite", "type": "context" },
+    { "year": 2018, "event": "Black Panther - phénomène culturel", "type": "cinema" },
+    { "year": 2023, "event": "Polémique The Little Mermaid", "type": "context" }
+  ]
+}
