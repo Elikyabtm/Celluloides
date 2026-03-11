@@ -46,7 +46,7 @@ const rolesData = [
 ];
 
 const roleColors = {
-  servant: { label: "Domestiques/Serviles", color: "bg-destructive/70" },
+  servant: { label: "Domestiques", color: "bg-destructive/70" },
   secondary: { label: "Rôles secondaires", color: "bg-muted-foreground/40" },
   lead: { label: "Rôles principaux", color: "bg-primary" },
   villain: { label: "Antagonistes", color: "bg-accent/60" },
@@ -171,12 +171,12 @@ export function RolesEvolution() {
           <div className="border-l-2 border-destructive/50 pl-4">
             <p className="font-serif text-4xl text-destructive mb-2">-96%</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Réduction des rôles domestiques/serviles entre les années 1930 et 2020.
+              Réduction des rôles domestiques entre les années 1930 et 2020.
               De <span className="text-foreground">89%</span> à <span className="text-foreground">3%</span> des rôles.
             </p>
           </div>
           <div className="border-l-2 border-primary pl-4">
-            <p className="font-serif text-4xl text-primary mb-2">+3100%</p>
+            <p className="font-serif text-4xl text-primary mb-2">+60%</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Augmentation des rôles principaux sur la même période.
               De <span className="text-foreground">2%</span> à <span className="text-foreground">62%</span> des rôles.
